@@ -103,8 +103,11 @@ content {
 .container4 {
     background-color: #ffffff;
     width: 1024px;
-    margin: 0 auto;
-    border: #dddddd
+    margin: 0px 140px 100px 140px;
+    height: auto;
+    border: #dddddd;
+    padding: 20px;
+    top: auto;
     position: relative;
 }
 
@@ -159,8 +162,35 @@ img {
     height: 150px;
 }
 
-h3 {
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
     
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.box {
+    position: relative;
+    margin: 30px;
+}
+
+h4 {
+    position: absolute;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 290px;
+    line-height: 30px;
 }
 /* .text-block {
     position: absolute;
