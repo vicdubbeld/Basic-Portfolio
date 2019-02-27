@@ -9,6 +9,9 @@ hr {
     position: relative;
 }
 
+.header {
+    
+}
 .name {
     width: 100%;
     padding: 12px 20px 12px 20px;
@@ -91,13 +94,13 @@ content {
 .container1 {
     width: 960px;
     margin: 0 auto;
-    border: #dddddd
+    border: #dddddd;
 }
 
 .container2 {
     width: 960px;
     margin: 0 auto;
-    border: #dddddd
+    border: #dddddd;
 }
 
 .container4 {
@@ -135,12 +138,10 @@ img {
 
 .myname, .myemail {
     width: 900px;
+   
 }
 
-.mymessage {
-    width: 900px;
-    height: 150px;
-}
+
 
 tr {
     display: table-row;
@@ -191,4 +192,19 @@ h4 {
     bottom: 0px;
     width: 100%;
     height: 50px
+}
+
+#button {
+    padding: 5px 25px;
+    background: #4aaaa5;
+    color: white;
+    -webkit-transition-duration: 0.1s; 
+    transition-duration: 0.1s;
+    font-size: 14px;
+}
+
+textarea {
+    width: 900px;
+    height: 150px;
+    color: #333;
 }
