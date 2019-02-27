@@ -1,3 +1,4 @@
+/* Header stuff */
 header {
     background: #ffffff;
     border: #cccccc;
@@ -9,9 +10,7 @@ hr {
     position: relative;
 }
 
-.header {
-    
-}
+.head-container {}
 .name {
     width: 100%;
     padding: 12px 20px 12px 20px;
