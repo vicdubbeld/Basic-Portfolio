@@ -1,35 +1,25 @@
-/* Header stuff */
+
+/* ----------------- First Portfolio Site by Victor Dubbeld ----------------- */
+
+
+/* ----------------- These will appear on every page of the site (hopefully) ----------------- */
+
+
 header {
     background: #ffffff;
     border: #cccccc;
     color: #4aaaa5;
 }
 
-hr {
-    width: 960px;
-    position: relative;
-}
-
-.head-container {}
-.name {
-    width: 100%;
-    padding: 12px 20px 12px 20px;
-    margin: 0 auto 0;
-    margin-bottom: 10px;
-    font-size: 28px;
-    color: white;
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    box-sizing: border-box;
-    resize: none;
-    float: left;
-    position: relative;
-}
-
 h2 {
     color: #4aaaa5;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    width: 960px;
+    position: relative;
 }
 
 body {
@@ -47,22 +37,23 @@ div {
     margin: 25px;
 }
 
-p {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-#selfie {
+/* ----------------- "Logo" and navigation bar ----------------- */
+
+
+.name {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    margin: 0 auto 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    box-sizing: border-box;
+    resize: none;
     float: left;
-    margin: 3px;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-}
-
-content {
-    width: 960px;
-    color: #333;
+    position: relative;
 }
 
 .navbar {
@@ -90,86 +81,9 @@ content {
     color: white;
 }
 
-.container1 {
-    width: 960px;
-    margin: 0 auto;
-    border: #dddddd;
-}
 
-.container2 {
-    width: 960px;
-    margin: 0 auto;
-    border: #dddddd;
-}
+/* ----------------- Footer ----------------- */
 
-.container4 {
-    background-color: #ffffff;
-    width: 960px;
-    margin: 0px 140px 100px 140px;
-    height: auto;
-    border: #dddddd;
-    padding: 20px;
-    top: auto;
-    position: relative;
-}
-
-#contact {
-    float: left;
-    width: %70;
-    background-color: white;
-    padding: 20px;
-}
-
-img {
-    /* float: left; */
-    margin: 3px;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-}
-
-#bio {
-    float: left;
-    width: %70;
-    background-color: white;
-    padding: 20px;
-}
-
-.myname, .myemail {
-    width: 900px;
-   
-}
-
-
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-}
-
-.box {
-    position: relative;
-    margin: 30px;
-}
-
-h4 {
-    position: absolute;
-    bottom: 0px;
-    background-color: #4aaaa5;
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-    width: 315px;
-    line-height: 30px;
-}
 
 .footer1 {
     text-align: center;
@@ -193,6 +107,82 @@ h4 {
     height: 50px
 }
 
+
+/* -----------------Individual Pages -----------------  */
+
+
+/* ----------------- Index page ----------------- */
+
+
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+content {
+    width: 960px;
+    color: #333;
+}
+
+#selfie {
+    float: left;
+    margin: 3px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.container2 {
+    width: 960px;
+    margin: 0 auto;
+    border: #dddddd;
+}
+
+#bio {
+    float: left;
+    width: %70;
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* ----------------- Contact Page ----------------- */
+
+
+textarea {
+    width: 900px;
+    height: 150px;
+    color: #333;
+}
+
+.container1 {
+    width: 960px;
+    margin: 0 auto;
+    border: #dddddd;
+}
+
+.container4 {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0px 140px 100px 140px;
+    height: auto;
+    border: #dddddd;
+    padding: 20px;
+    top: auto;
+    position: relative;
+}
+
+.myname, .myemail {
+    width: 900px;
+}
+
+#contact {
+    float: left;
+    width: %70;
+    background-color: white;
+    padding: 20px;
+}
+
 #button {
     padding: 5px 25px;
     background: #4aaaa5;
@@ -202,8 +192,43 @@ h4 {
     font-size: 14px;
 }
 
-textarea {
-    width: 900px;
-    height: 150px;
-    color: #333;
+
+/* ----------------- Portfolio Page ----------------- */
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+h4 {
+    position: absolute;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 315px;
+    line-height: 30px;
+}
+
+img {
+    margin: 3px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.box {
+    position: relative;
+    margin: 30px;
+}
+
