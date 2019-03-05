@@ -1,99 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
+    <title>Portfolio | Victor Dubbeld</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- <div id="wrapper"> -->
-    <div class="box">
-        <a href="index.html">
-            <h1 class="name">Victor Dubbeld</h1>
-        </a>
-    </div>
-    <header>
-        <div class="navbar">
 
-            <a class="active" href="index.html">About</a>
-            |
-            <a href="portfolio.html" class="navbar-button">Portfolio</a>
-            |
-            <a href="contact.html" class="navbar-button">Contact</a>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Your Name</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
     </header>
-    <!-- find way to not have to have two breaks  -->
-    <br>
-    <hr>
-    <br>
 
-    <div class="container4">
-        <h2>Portfolio</h2>
-        <hr>
-        <table>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div class="work">
+                            <img src="images/hangman2.png" alt="Word Guess">
 
-            <tr>
-                <td>
-                    <div class="box">
-                        <a href="#">
-                        <img src="assets/images/hangman2.png" id="hangman" alt="portimage" style="width:100%">
-                        <h4>Hangman</h4>
-                    </a>
-                    </div>
-                </td>
-                <td>
-                    <div class="box">
-                        <a href="#">
-                        <img src="assets/images/rpg.jpg" id="rpg" alt="portimage" style="width:100%">
-                        <h4>RPG Game</h4>
-                    </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="box">
-                        <a href="#">
-                        <img src="assets/images/trivia.png" id="trivia" alt="portimage" style="width:100%">
-                        <h4>Trivia Game</h4>
-                    </a>
-                    </div>
-                </td>
-                <td>
-                    <div class="box">
-                        <a href="#">
-                        <img src="assets/images/widget.jpg" id="widget" alt="portimage" style="width:100%">
-                        <h4>Info Widget</h4>
-                    </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="box">
-                        <a href="#">
-                        <img src="assets/images/rock-paper-scissors-items.png" id="rpc" alt="portimage"
-                            style="width:100%">
-                        <h4>Rock Paper Scissors</h4>
-                    </a>
-                    </div>
-                </td>
+                            <h3>Word Guess</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="work">
+                            <img src="images/rpg.jpg" alt="RPG Game">
 
-            </tr>
+                            <h3>RPG Game</h3>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="work">
+                            <img src="images/trivia.png" alt="Trivia Game">
 
+                            <h3>Trivia Game</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="work">
+                            <img src="images/widget.jpg" alt="Rutgers Info Widget">
+
+                            <h3>Rutgers Info Widget</h3>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                <div class="work">
+                    <img src="rock-paper-scissors-items.png" alt="Rock Paper Scissors">
+
+                    <h3>Rock Paper Scissors</h3>
+                </div>
+                </td>
+                </tr>
+
+        </section>
         </table>
     </div>
 
-    <footer class="footer1">
-        Copyright ©
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
     </footer>
-
-
 </body>
 
 </html>

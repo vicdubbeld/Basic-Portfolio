@@ -1,62 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <div class="box">
-            <a href="index.html">
-                    <h1 class="name">Victor Dubbeld</h1>
-            </a>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <header>
+  </header>
 
-        <div class="navbar">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-            <a class="active" href="index.html">About</a>
-            |
-            <a href="portfolio.html" class="navbar-button">Portfolio</a>
-            |
-            <a href="contact.html" class="navbar-button">Contact</a>
-        </div>
-    </header>
-    <br>
-    <hr id="hr1">
-    <div class="container1">
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <hr>
+    </section>
 
-            <h5>Name</h5>
-            <input type="text" id="my-text" class="myname" value="" placeholder="Brock Roberts">
-            <h5>Email</h5>
-            <input type="text" id="my-text" class="myemail" value="" placeholder="brockrock$@gmail.com">
-            <h5>Message</h5>
-            <textarea name="message" value="" > </textarea>
-            <br>
-            <br>
-            <input type="submit" value="Submit" id="button">
-    
-        </section>
-        <br>
-        <br>
+  </div>
 
+  <footer>
+    <div class="container">
+      Copyright &copy; 
     </div>
-
-
-
-    <footer class="footer">
-        Copyright ©
-    </footer>
-
+  </footer>
 </body>
 
 </html>
